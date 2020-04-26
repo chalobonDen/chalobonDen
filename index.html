@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    
+</head>
+<body>
+    <br><br><br>
+    <audio id="myAudio">
+        <!-- <source src="horse.ogg" type="audio/ogg"> -->
+        <source src="WannaBe(MyBaby).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="play">
+    <center>
+        <button onclick="playAudio()" type="button"><img src="images/Play.png"></button>
+        <button onclick="pauseAudio()" type="button"><img src="images/Pause.png"></button> 
+    </center>
+    </div>
+
+    
+    <table align="center" width="500" cellspacing="50">
+        <tr>
+            <td>
+                <p id="output" align="center"></p>
+            </td>
+            <td>
+                <p id="output1" align="center"></p>
+            </td>
+            <td>
+                <p id="output2" align="center"></p>
+            </td>
+        </tr>
+    <div class="randomStop">
+    <center>
+        <button class="button" id="random">Random</button>
+        <button class="button" id="stop">Stop</button>
+    </center>    
+    </div>
+    </table>
+ 
+
+
+    <script src='index.js'></script> 
+
+
+
+
+
+
+
+</body>
+</html>
